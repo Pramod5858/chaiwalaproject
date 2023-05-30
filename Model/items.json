@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"thali",
+        "description":"3chapati, bhaji,rice, dal, papad, 1sweet, 1glass taak",
+        "qty":1,
+        "price":150
+    },
+    {
+        "id":2,
+        "name":"paav Bhaaji",
+        "description":"2paav, Bhaaji, 1glass taak",
+        "qty":1,
+        "price":70
+    },
+    {
+        "id":3,
+        "name":"misal paav",
+        "description":"2paav, misal unlimited, 1glass taak, 1 sweet(any)",
+        "qty":1,
+        "price":80
+    }
+]
