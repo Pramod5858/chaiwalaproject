@@ -30,15 +30,16 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(express.json());
 app.use('/',route);
-mongoose.connect(DATABASE, {useNewUrlParser:true, useUnifiedTopology:true})
-.then(
-    res=>{
-        app.listen(PORT, BASE_URL, ()=>{
-            console.log(`Server is connected ${hostname}:${PORT}`);
-        })
-    }
-)
-.catch(err=>console.log(err))
+app.listen(port, BASE_URL, () => {
+    console.log(`Connection Succesfully to ${BASE_URL}:${port}`)
+})
+
+mongoose.set("strictQuery", false);
+mongoose.connect(DATABASE, {
+    UseNewUrlParser: true, UseUnifiedTopology: true
+}).then(data=>{
+    console.log("DB has been connected");
+}).catch(e=>console.log(e))
     
 
 
