@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose")
 const cors = require("cors");
-const BASE_URL = process.env.BASE_URL
+const BASE_URL = process.env.BASE_URL;
 
 const route = require('./Route/index');
 
