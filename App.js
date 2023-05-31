@@ -6,7 +6,7 @@ const BASE_URL = process.env.BASE_URL;
 
 const route = require('./Route/index');
 
-const PORT = process.env.PORT || 5500;
+const port = process.env.PORT || 5500;
 const hostname = "localhost";
 //const dbUrl = "mongodb://127.0.0.1:27017/chaiwala";
 const DATABASE = "mongodb+srv://chaiwalauser:PXIHaR0QmikfU2e8@cluster0.dznj06x.mongodb.net/chaiwalaShop?retryWrites=true&w=majority";
